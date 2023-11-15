@@ -1,0 +1,13 @@
+package TypeCasting;
+/*converting the value from lower data type into higher data type.
+	syntax:
+		higher datatype = (higher datatype) lower datatype ;
+*/
+public class Widening_Narrowing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

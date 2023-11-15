@@ -1,0 +1,18 @@
+package ControlStatements;
+
+public class MarriageEligibility {
+
+	public static void main(String[] args) {
+		
+		int age=23;
+		int salary=45000;
+		if(age<30 && salary>100000) {
+			System.out.println("He is eligible for marriage");
+		}
+		else {
+			System.out.println("He is not eligible for marriage");
+
+		}
+	}
+
+}

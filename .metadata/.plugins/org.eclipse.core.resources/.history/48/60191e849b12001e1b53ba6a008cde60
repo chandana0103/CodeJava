@@ -1,0 +1,19 @@
+package ControlStatements;
+
+import java.util.Scanner;
+
+public class Salary_PF {
+
+	public static void main(String[] args) {
+		System.out.println("enter salary: ");
+		Scanner sc=new Scanner(System.in);
+		
+		int salary=sc.nextInt();
+		int pf=(12%salary)*100;
+		
+		System.out.println("PF of salary"+pf);
+
+
+	}
+
+}

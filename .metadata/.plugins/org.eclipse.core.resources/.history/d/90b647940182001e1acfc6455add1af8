@@ -1,0 +1,32 @@
+package keyWords;
+//super keyword is used to refer to immediate parent class of a child class.
+//In other words super keyword is used by a subclass whenever it need to refer to its immediate super class.
+
+public class SuperKeyWord {
+	String name;
+	void details() {
+		System.out.println(name.toUpperCase());
+	}
+}
+	
+	public class child extends SuperKeyWord{
+		String name;
+		
+		public void details() {
+			super.name="parent";
+			name="child";
+			System.out.println(super.name+" , "+name);
+		}
+		
+	public child() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		child c=new child();
+		c.details();
+
+	}
+	
+}

@@ -1,0 +1,10 @@
+package ControlStatements;
+
+public class BrandName_Slogan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

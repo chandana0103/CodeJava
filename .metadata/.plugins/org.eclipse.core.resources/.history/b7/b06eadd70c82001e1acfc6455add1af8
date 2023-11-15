@@ -1,0 +1,23 @@
+package Polymorphism;
+//declaring 2 methods with same method signature in 2 different classes which are having IS-A relation.
+//Private, final and static methods cannot be overridden.
+
+public class methodOverriding {
+	void eat() {
+		System.out.println("parent member");
+	}
+}
+	 class member extends methodOverriding{
+		void eat() {
+			System.out.println("child member");
+		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//methodOverriding m=new methodOverriding();
+		member m=new member();
+		m.eat();
+
+	}
+
+}

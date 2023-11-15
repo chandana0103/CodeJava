@@ -1,0 +1,30 @@
+package keyWords;
+/*
+ * this is a keyword which is used to refer current object of a class. 
+ * we can it to refer any member of the class. 
+ * It means we can access any instance variable and method by using this keyword.
+ */
+public class ThisKeyWord {
+
+	double height,weight,breadth;
+	
+	public ThisKeyWord(double w,double h,double b) {
+		
+		weight =w;
+		height=h;
+		breadth =b;
+	}
+
+	public static void main(String[] args) {
+		
+		ThisKeyWord r=new ThisKeyWord(23,13,43);
+		
+		System.out.println("height:"+r.height);
+		System.out.println("weight:"+r.weight);
+		System.out.println("breadth:"+r.breadth);
+
+		
+
+	}
+
+}

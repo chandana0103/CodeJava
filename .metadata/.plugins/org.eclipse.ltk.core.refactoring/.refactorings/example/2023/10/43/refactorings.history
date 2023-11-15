@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Character_Boolean_type.java&apos; to &apos;Var_dataTypes_Identifier/src/PrimitiveDataTypes&apos;&#x0D;&#x0A;- Original project: &apos;example&apos;&#x0D;&#x0A;- Destination element: &apos;Var_dataTypes_Identifier/src/PrimitiveDataTypes&apos;&#x0D;&#x0A;- Original element: &apos;Character_Boolean_type.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Var_dataTypes_Identifier/src&lt;PrimitiveDataTypes" element1="Character_Boolean_type.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1698483282336" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package AbstractClasses;
+
+abstract class demo {
+	
+	public abstract void result();
+}
+	
+   class example extends demo {
+	  public  void result() {
+		  System.out.println("ready");
+	  }
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		example e=new example();
+		e.result();
+	}
+  
+}

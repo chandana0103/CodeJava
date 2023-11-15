@@ -1,0 +1,31 @@
+package ControlStatements;
+//Write a java program to read shoes brand name from keyboard, based on brand
+//name print brand slogan like below
+import java.util.Scanner;
+
+public class BrandName_Slogan {
+
+	public static void main(String[] args) {
+		
+		System.out.println("enter Brand name: ");
+		Scanner sc=new Scanner(System.in);
+		String name=sc.toString();
+		
+		if (name=="Nike") {
+			System.out.println(" Just do it");
+		}
+		else if(name=="Adidas") {
+			System.out.println(" Impossible is nothing");
+
+		}
+		else if(name=="Puma") {
+			System.out.println(" Forever Faster");
+
+		}
+		else
+		System.out.println(" I Am What I Am");
+
+	
+	}
+
+}

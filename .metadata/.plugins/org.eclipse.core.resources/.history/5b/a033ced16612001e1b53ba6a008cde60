@@ -1,0 +1,20 @@
+package ControlStatements;
+
+import java.util.Scanner;
+
+//Write a java program to check given number is even number or odd number
+public class OddOrEven {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		System.out.println("enter number: ");
+		//sint num=23;
+		if (num%2==0) {
+			System.out.println("number is even");
+		}else {
+				System.out.println("number is odd");
+			}
+		}
+
+	}
