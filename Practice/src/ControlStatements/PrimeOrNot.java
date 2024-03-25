@@ -20,7 +20,27 @@ public class PrimeOrNot {
 	      System.out.println(num + " is a prime number.");
 	    else
 	      System.out.println(num + " is not a prime number."); 
-	   }  
+	     
+	//Scanner sc=new Scanner(System.in);
+	int i,n = 0,count, sum=0;
+
+	int maxValue=10;
+
+	for(num=1; n<=maxValue; num++){
+	  count=0;
+	  for(i=2; i<=n/2; i++){
+	    if(n%i==0){
+	      count++;
+	      break;
+	    }
 	}
+	if(count==0 && n !=1){
+	  sum+=num;
+	}
+	}
+	  System.out.println(sum);
+	}
+	}
+	
 
 
